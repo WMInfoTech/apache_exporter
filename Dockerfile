@@ -1,4 +1,4 @@
-FROM golang:1.13 AS build
+FROM docker.io/golang:1.13 AS build
 
 WORKDIR /go/src/github.com/Lusitaniae/apache_exporter
 COPY . /go/src/github.com/Lusitaniae/apache_exporter
